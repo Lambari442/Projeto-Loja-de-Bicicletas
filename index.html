@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/png" href="img_home/bikeicon.png"/>
+	<title>Top Bike</title>
+	<link rel="stylesheet" type="text/css" href="css/stylehome.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	
+</head>
+<body>
+
+	
+<header>
+	<section>
+		<img src="img_home/sol.png" id="bg">
+		<img src="img_home/logo2.png" id="moon" >
+		<img src="img_home/montanha.png" id="mountain">
+		<img src="img_home/cicli1.png" id="road">
+		<h2 id="text">Top Bike</h2>
+
+	</section>
+</header>
+
+
+
+
+<div class="conteiner">
+	<center><p>Venha encontrar sua Bike Ideal aqui</p></center>
+	<center><button class="button"><span><a href="home.html" style="text-decoration:none">Vamos Lá!</a></span></button></center>
+	<center><img src="img_home/logosf.png"></center>>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+		
+		let bg = document.getElementById("bg");
+	let moon = document.getElementById("moon");
+	let mountain = document.getElementById("mountain");
+	let road = document.getElementById("road");
+	let text = document.getElementById("text");
+
+	window.addEventListener('scroll', function () {
+	// body...
+	var value = window.scrollY;
+
+	bg.style.top = value * 0.5 + 'px';
+	moon.style.left = -value * 0.5 + 'px';
+	mountain.style.top = -value * 0.15 + 'px';
+	road.style.top = value * 0.15 + 'px';
+	text.style.top = value * 1 + 'px';
+
+	})
+
+</script>
+
+</body>
+
+</html>
+
+<!-- 
+  _____  
+ |  __ \ 
+ | |__) |
+ |  _  / 
+ | | \ \ 
+ |_|  \_\
+	
+	.-. .- ..-. .- . .-..
+ -->
